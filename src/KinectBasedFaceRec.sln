@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectBasedFaceRec-RealTime", "KinectBasedFaceRec-RealTime\KinectBasedFaceRec-RealTime.vcxproj", "{A36B045A-ECBD-43A7-8287-247545AF8A4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectBasedFaceRec-Validation", "KinectBasedFaceRec-Validation\KinectBasedFaceRec-Validation.vcxproj", "{DBB7291C-EB38-4E66-BE12-E12C11958EAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image Processing", "Image Processing", "{ED2DD56B-60ED-472E-9FE6-3481AF0124CD}"
+	ProjectSection(SolutionItems) = preProject
+		Calibration.cpp = Calibration.cpp
+		Calibration.h = Calibration.h
+		FaceDetection-VJ.haarcascade_frontalface_alt.xml = FaceDetection-VJ.haarcascade_frontalface_alt.xml
+		FaceDetectionVJ.cpp = FaceDetectionVJ.cpp
+		FaceDetectionVJ.h = FaceDetectionVJ.h
+		KinectToCV.cpp = KinectToCV.cpp
+		KinectToCV.h = KinectToCV.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{57E9553B-9BAE-4079-8CD3-67E85153FD72}"
+	ProjectSection(SolutionItems) = preProject
+		DBImage.cpp = DBImage.cpp
+		DBImage.h = DBImage.h
+		DBImage2.cpp = DBImage2.cpp
+		DBImage2.h = DBImage2.h
+		Person.cpp = Person.cpp
+		Person.h = Person.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features reduction", "Features reduction", "{C5AE4B6F-8D57-49CB-8FBA-398FDED204A7}"
+	ProjectSection(SolutionItems) = preProject
+		AlgoHISTOGRAM.cpp = AlgoHISTOGRAM.cpp
+		AlgoHISTOGRAM.h = AlgoHISTOGRAM.h
+		AlgoLDA.cpp = AlgoLDA.cpp
+		AlgoLDA.h = AlgoLDA.h
+		AlgoPCA.cpp = AlgoPCA.cpp
+		AlgoPCA.h = AlgoPCA.h
+		AlgoPCALDA.cpp = AlgoPCALDA.cpp
+		AlgoPCALDA.h = AlgoPCALDA.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31DA018E-2B2E-4C64-9370-16BE583ADA26}"
+	ProjectSection(SolutionItems) = preProject
+		InlineMatrixOperations.cpp = InlineMatrixOperations.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classifiers", "Classifiers", "{42A72B86-02BE-4AD4-8705-7E4BC7C73FFA}"
+	ProjectSection(SolutionItems) = preProject
+		Discrimination.cpp = Discrimination.cpp
+		Discrimination.h = Discrimination.h
+		Enums.h = Enums.h
+		KNearest.cpp = KNearest.cpp
+		KNearest.h = KNearest.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KinectCalibration", "KinectCalibration\KinectCalibration.vcxproj", "{110B5CC2-236F-42A6-AF26-DA715891B7FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DatabaseCreator", "DatabaseCreator\DatabaseCreator.vcxproj", "{B58E792C-28AE-4F0A-8FC5-AF253B9641A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36B045A-ECBD-43A7-8287-247545AF8A4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A36B045A-ECBD-43A7-8287-247545AF8A4D}.Debug|Win32.Build.0 = Debug|Win32
+		{A36B045A-ECBD-43A7-8287-247545AF8A4D}.Release|Win32.ActiveCfg = Release|Win32
+		{A36B045A-ECBD-43A7-8287-247545AF8A4D}.Release|Win32.Build.0 = Release|Win32
+		{DBB7291C-EB38-4E66-BE12-E12C11958EAD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBB7291C-EB38-4E66-BE12-E12C11958EAD}.Debug|Win32.Build.0 = Debug|Win32
+		{DBB7291C-EB38-4E66-BE12-E12C11958EAD}.Release|Win32.ActiveCfg = Release|Win32
+		{DBB7291C-EB38-4E66-BE12-E12C11958EAD}.Release|Win32.Build.0 = Release|Win32
+		{110B5CC2-236F-42A6-AF26-DA715891B7FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{110B5CC2-236F-42A6-AF26-DA715891B7FA}.Debug|Win32.Build.0 = Debug|Win32
+		{110B5CC2-236F-42A6-AF26-DA715891B7FA}.Release|Win32.ActiveCfg = Release|Win32
+		{110B5CC2-236F-42A6-AF26-DA715891B7FA}.Release|Win32.Build.0 = Release|Win32
+		{B58E792C-28AE-4F0A-8FC5-AF253B9641A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B58E792C-28AE-4F0A-8FC5-AF253B9641A0}.Debug|Win32.Build.0 = Debug|Win32
+		{B58E792C-28AE-4F0A-8FC5-AF253B9641A0}.Release|Win32.ActiveCfg = Release|Win32
+		{B58E792C-28AE-4F0A-8FC5-AF253B9641A0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

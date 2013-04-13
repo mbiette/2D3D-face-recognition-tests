@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calib type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>f</dt>
+  <data>
+    1.12110817e+000 -2.86775231e-002 -3.46587563e+001 8.98569301e-002
+    9.56009448e-001 2.27926350e+001 3.16411257e-004 -9.05257693e-005
+    9.88018692e-001</data></calib>
+</opencv_storage>
